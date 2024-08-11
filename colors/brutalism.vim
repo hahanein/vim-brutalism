@@ -79,5 +79,4 @@ hi Bold           cterm=NONE ctermfg=NONE term=NONE
 hi Italic         cterm=NONE ctermfg=NONE term=NONE
 
 hi NormalFloat ctermbg=yellow
-hi NormalFloat ctermbg=yellow
-hi NormalFloat ctermbg=yellow
+hi Pmenu ctermbg=black ctermfg=yellow
