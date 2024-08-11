@@ -80,3 +80,13 @@ hi Italic         cterm=NONE ctermfg=NONE term=NONE
 
 hi NormalFloat ctermbg=yellow
 hi Pmenu ctermbg=black ctermfg=yellow
+
+hi DiagnosticError          ctermfg=NONE cterm=undercurl guisp=red
+hi DiagnosticWarn           ctermfg=NONE cterm=undercurl guisp=red
+hi DiagnosticInfo           ctermfg=NONE cterm=undercurl guisp=red
+hi DiagnosticHint           ctermfg=NONE cterm=undercurl guisp=red
+hi DiagnosticUnnecessary    ctermfg=NONE cterm=undercurl guisp=red
+hi DiagnosticUnderlineError ctermfg=NONE cterm=undercurl guisp=red
+hi DiagnosticUnderlineWarn  ctermfg=NONE cterm=undercurl guisp=red
+hi DiagnosticUnderlineInfo  ctermfg=NONE cterm=undercurl guisp=red
+hi DiagnosticUnderlineHint  ctermfg=NONE cterm=undercurl guisp=red
