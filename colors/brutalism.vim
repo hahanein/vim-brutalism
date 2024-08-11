@@ -80,3 +80,4 @@ hi Italic         cterm=NONE ctermfg=NONE term=NONE
 
 hi NormalFloat ctermbg=yellow
 hi Pmenu ctermbg=black ctermfg=yellow
+hi PmenuThumb ctermbg=black
