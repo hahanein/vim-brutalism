@@ -77,3 +77,7 @@ hi Debug          cterm=NONE ctermfg=NONE term=NONE
 hi Underlined     cterm=NONE ctermfg=NONE term=NONE
 hi Bold           cterm=NONE ctermfg=NONE term=NONE
 hi Italic         cterm=NONE ctermfg=NONE term=NONE
+
+hi NormalFloat ctermbg=yellow
+hi NormalFloat ctermbg=yellow
+hi NormalFloat ctermbg=yellow
