@@ -21,7 +21,7 @@ hi DiffChange     cterm=NONE ctermfg=NONE term=NONE
 hi DiffDelete     cterm=NONE ctermfg=NONE term=NONE
 hi DiffText                        ctermfg=NONE                
 hi Directory      cterm=NONE       ctermfg=NONE  term=NONE
-hi Error          cterm=underline  ctermfg=NONE  term=underline
+hi Error          cterm=NONE       ctermfg=NONE  term=NONE
 hi ErrorMsg       cterm=NONE       ctermfg=NONE  term=NONE     
 hi FoldColumn     cterm=NONE       ctermfg=NONE  term=NONE     
 hi Folded         cterm=NONE       ctermfg=NONE  term=NONE     
@@ -38,7 +38,7 @@ hi Title          cterm=NONE       ctermfg=NONE  term=NONE
 hi Todo           cterm=NONE       ctermfg=NONE  term=NONE     
 hi Underlined     cterm=NONE       ctermfg=NONE  term=NONE     
 hi VertSplit      cterm=NONE       ctermfg=NONE  term=NONE     
-hi Visual                          ctermfg=white                
+hi Visual                          cterm=reverse
 hi VisualNOS      cterm=NONE       ctermfg=NONE  term=NONE     
 hi WarningMsg     cterm=NONE       ctermfg=NONE  term=NONE     
 hi WildMenu       cterm=NONE       ctermfg=NONE  term=NONE     
@@ -79,14 +79,14 @@ hi Bold           cterm=NONE ctermfg=NONE term=NONE
 hi Italic         cterm=NONE ctermfg=NONE term=NONE
 
 hi NormalFloat ctermbg=yellow
-hi Pmenu ctermbg=black ctermfg=yellow
+hi Pmenu ctermfg=yellow ctermbg=white
 
-hi DiagnosticError          ctermfg=NONE cterm=undercurl guisp=red
-hi DiagnosticWarn           ctermfg=NONE cterm=undercurl guisp=red
-hi DiagnosticInfo           ctermfg=NONE cterm=undercurl guisp=red
-hi DiagnosticHint           ctermfg=NONE cterm=undercurl guisp=red
-hi DiagnosticUnnecessary    ctermfg=NONE cterm=undercurl guisp=red
-hi DiagnosticUnderlineError ctermfg=NONE cterm=undercurl guisp=red
-hi DiagnosticUnderlineWarn  ctermfg=NONE cterm=undercurl guisp=red
-hi DiagnosticUnderlineInfo  ctermfg=NONE cterm=undercurl guisp=red
-hi DiagnosticUnderlineHint  ctermfg=NONE cterm=undercurl guisp=red
+hi DiagnosticError          ctermbg=yellow ctermfg=NONE cterm=NONE
+hi DiagnosticWarn           ctermbg=yellow ctermfg=NONE cterm=NONE
+hi DiagnosticInfo           ctermbg=yellow ctermfg=NONE cterm=NONE
+hi DiagnosticHint           ctermbg=yellow ctermfg=NONE cterm=NONE
+hi DiagnosticUnnecessary    ctermbg=yellow ctermfg=NONE cterm=NONE
+hi DiagnosticUnderlineError ctermbg=yellow ctermfg=NONE cterm=NONE
+hi DiagnosticUnderlineWarn  ctermbg=yellow ctermfg=NONE cterm=NONE
+hi DiagnosticUnderlineInfo  ctermbg=yellow ctermfg=NONE cterm=NONE
+hi DiagnosticUnderlineHint  ctermbg=yellow ctermfg=NONE cterm=NONE
