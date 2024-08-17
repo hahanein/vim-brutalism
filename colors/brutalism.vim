@@ -19,29 +19,29 @@ hi CursorLineNr   cterm=NONE ctermfg=NONE term=NONE
 hi DiffAdd        cterm=NONE ctermfg=NONE term=NONE
 hi DiffChange     cterm=NONE ctermfg=NONE term=NONE
 hi DiffDelete     cterm=NONE ctermfg=NONE term=NONE
-hi DiffText                        ctermfg=NONE                
+hi DiffText                        ctermfg=NONE
 hi Directory      cterm=NONE       ctermfg=NONE  term=NONE
 hi Error          cterm=NONE       ctermfg=NONE  term=NONE
-hi ErrorMsg       cterm=NONE       ctermfg=NONE  term=NONE     
-hi FoldColumn     cterm=NONE       ctermfg=NONE  term=NONE     
-hi Folded         cterm=NONE       ctermfg=NONE  term=NONE     
-hi Ignore         cterm=NONE       ctermfg=NONE  term=NONE     
-hi IncSearch                       ctermfg=NONE                
-hi LineNr         cterm=NONE       ctermfg=NONE  term=NONE     
-hi ModeMsg        cterm=NONE       ctermfg=NONE  term=NONE     
-hi MoreMsg        cterm=NONE       ctermfg=NONE  term=NONE     
-hi Question       cterm=standout   ctermfg=NONE  term=standout 
-hi Search                          ctermfg=NONE                
-hi StatusLine     cterm=NONE       ctermfg=NONE  term=NONE     
-hi StatusLineNC   cterm=NONE       ctermfg=NONE  term=NONE     
-hi Title          cterm=NONE       ctermfg=NONE  term=NONE     
-hi Todo           cterm=NONE       ctermfg=NONE  term=NONE     
-hi Underlined     cterm=NONE       ctermfg=NONE  term=NONE     
-hi VertSplit      cterm=NONE       ctermfg=NONE  term=NONE     
+hi ErrorMsg       cterm=NONE       ctermfg=NONE  term=NONE
+hi FoldColumn     cterm=NONE       ctermfg=NONE  term=NONE
+hi Folded         cterm=NONE       ctermfg=NONE  term=NONE
+hi Ignore         cterm=NONE       ctermfg=NONE  term=NONE
+hi IncSearch                       ctermfg=NONE
+hi LineNr         cterm=NONE       ctermfg=NONE  term=NONE
+hi ModeMsg        cterm=NONE       ctermfg=NONE  term=NONE
+hi MoreMsg        cterm=NONE       ctermfg=NONE  term=NONE
+hi Question       cterm=standout   ctermfg=NONE  term=standout
+hi Search                          ctermfg=NONE
+hi StatusLine     cterm=NONE       ctermfg=NONE  term=NONE
+hi StatusLineNC   cterm=NONE       ctermfg=NONE  term=NONE
+hi Title          cterm=NONE       ctermfg=NONE  term=NONE
+hi Todo           cterm=NONE       ctermfg=NONE  term=NONE
+hi Underlined     cterm=NONE       ctermfg=NONE  term=NONE
+hi VertSplit      cterm=NONE       ctermfg=NONE  term=NONE
 hi Visual                          cterm=reverse
-hi VisualNOS      cterm=NONE       ctermfg=NONE  term=NONE     
-hi WarningMsg     cterm=NONE       ctermfg=NONE  term=NONE     
-hi WildMenu       cterm=NONE       ctermfg=NONE  term=NONE     
+hi VisualNOS      cterm=NONE       ctermfg=NONE  term=NONE
+hi WarningMsg     cterm=NONE       ctermfg=NONE  term=NONE
+hi WildMenu       cterm=NONE       ctermfg=NONE  term=NONE
 
 hi Comment        cterm=NONE ctermfg=darkgreen term=NONE
 hi Constant       cterm=NONE ctermfg=NONE term=NONE
@@ -90,3 +90,4 @@ hi DiagnosticUnderlineError ctermbg=yellow ctermfg=NONE cterm=NONE
 hi DiagnosticUnderlineWarn  ctermbg=yellow ctermfg=NONE cterm=NONE
 hi DiagnosticUnderlineInfo  ctermbg=yellow ctermfg=NONE cterm=NONE
 hi DiagnosticUnderlineHint  ctermbg=yellow ctermfg=NONE cterm=NONE
+hi MatchParen ctermbg=yellow cterm=NONE term=NONE
