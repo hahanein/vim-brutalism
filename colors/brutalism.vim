@@ -80,7 +80,7 @@ hi Italic         cterm=NONE ctermfg=NONE term=NONE
 
 hi NormalFloat ctermbg=yellow
 hi Pmenu ctermfg=yellow ctermbg=white
-hi PmenuSel cterm=bold
+hi PmenuSel cterm=bold ctermbg=yellow
 
 hi DiagnosticError          ctermbg=yellow ctermfg=NONE cterm=NONE
 hi DiagnosticWarn           ctermbg=yellow ctermfg=NONE cterm=NONE
