@@ -16,10 +16,6 @@ let g:colors_name="brutalism"
 
 hi CursorLine     cterm=NONE ctermfg=NONE term=NONE
 hi CursorLineNr   cterm=NONE ctermfg=NONE term=NONE
-hi DiffAdd        cterm=NONE ctermfg=NONE term=NONE
-hi DiffChange     cterm=NONE ctermfg=NONE term=NONE
-hi DiffDelete     cterm=NONE ctermfg=NONE term=NONE
-hi DiffText                        ctermfg=NONE
 hi Directory      cterm=NONE       ctermfg=NONE  term=NONE
 hi Error          cterm=NONE       ctermfg=NONE  term=NONE
 hi ErrorMsg       cterm=NONE       ctermfg=NONE  term=NONE
@@ -92,3 +88,9 @@ hi DiagnosticUnderlineWarn  ctermbg=yellow ctermfg=NONE cterm=NONE
 hi DiagnosticUnderlineInfo  ctermbg=yellow ctermfg=NONE cterm=NONE
 hi DiagnosticUnderlineHint  ctermbg=yellow ctermfg=NONE cterm=NONE
 hi MatchParen ctermbg=yellow cterm=NONE term=NONE
+
+hi DiffAdd    cterm=NONE ctermbg=NONE term=NONE ctermfg=green
+hi DiffChange cterm=NONE ctermbg=NONE term=NONE ctermfg=yellow
+hi DiffDelete cterm=NONE ctermbg=NONE term=NONE ctermfg=red
+hi DiffText   cterm=NONE ctermbg=NONE term=NONE ctermfg=blue
+hi DiffMoved  cterm=NONE ctermbg=NONE term=NONE ctermfg=cyan
