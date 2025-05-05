@@ -41,7 +41,7 @@ hi WildMenu       cterm=NONE       ctermfg=NONE  term=NONE
 
 hi Comment        cterm=NONE ctermfg=darkgreen term=NONE
 hi Constant       cterm=NONE ctermfg=NONE term=NONE
-hi String         cterm=NONE ctermfg=NONE term=NONE
+hi String         cterm=NONE ctermfg=darkgreen term=NONE
 hi Character      cterm=NONE ctermfg=NONE term=NONE
 hi Number         cterm=NONE ctermfg=NONE term=NONE
 hi Float          cterm=NONE ctermfg=NONE term=NONE
