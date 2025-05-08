@@ -78,6 +78,8 @@ hi NormalFloat ctermbg=yellow
 hi Pmenu ctermbg=yellow cterm=NONE
 hi PmenuSel cterm=bold ctermbg=yellow
 
+hi TabLineSel ctermbg=yellow
+
 hi DiagnosticError          ctermbg=yellow ctermfg=NONE cterm=NONE
 hi DiagnosticWarn           ctermbg=yellow ctermfg=NONE cterm=NONE
 hi DiagnosticInfo           ctermbg=yellow ctermfg=NONE cterm=NONE
