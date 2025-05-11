@@ -91,8 +91,10 @@ hi DiagnosticUnderlineInfo  ctermbg=yellow ctermfg=NONE cterm=NONE
 hi DiagnosticUnderlineHint  ctermbg=yellow ctermfg=NONE cterm=NONE
 hi MatchParen ctermbg=yellow cterm=NONE term=NONE
 
-hi DiffAdd    cterm=NONE ctermbg=NONE term=NONE ctermfg=green
-hi DiffChange cterm=NONE ctermbg=NONE term=NONE ctermfg=yellow
-hi DiffDelete cterm=NONE ctermbg=NONE term=NONE ctermfg=red
-hi DiffText   cterm=NONE ctermbg=NONE term=NONE ctermfg=blue
-hi DiffMoved  cterm=NONE ctermbg=NONE term=NONE ctermfg=cyan
+hi DiffAdd    cterm=NONE ctermbg=NONE term=NONE ctermfg=NONE
+hi DiffChange cterm=NONE ctermbg=NONE term=NONE ctermfg=NONE
+hi DiffDelete cterm=NONE ctermbg=NONE term=NONE ctermfg=NONE
+hi DiffText   cterm=NONE ctermbg=NONE term=NONE ctermfg=NONE
+hi DiffMoved  cterm=NONE ctermbg=NONE term=NONE ctermfg=NONE
+
+hi TreesitterContext cterm=NONE ctermfg=NONE term=NONE
