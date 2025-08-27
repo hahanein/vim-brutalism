@@ -39,6 +39,7 @@ hi VisualNOS      cterm=NONE       ctermfg=NONE  term=NONE
 hi WarningMsg     cterm=NONE       ctermfg=NONE  term=NONE
 hi WildMenu       cterm=NONE       ctermfg=NONE  term=NONE
 
+hi NonText        cterm=NONE ctermfg=darkgreen term=NONE
 hi Comment        cterm=NONE ctermfg=darkgreen term=NONE
 hi Constant       cterm=NONE ctermfg=NONE term=NONE
 hi String         cterm=NONE ctermfg=darkgreen term=NONE
